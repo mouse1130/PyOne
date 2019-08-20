@@ -1,20 +1,19 @@
+![icon](https://ww3.sinaimg.cn/large/0074MymAly1g1ipmf4vj6j305402djr6.jpg)
 # PyOne - 基于Python的onedrive文件本地化浏览系统,使用MongoDB缓存文件
 
+Demo地址：[https://pyone.me](https://pyone.me) --暂不可用
 
-## 说明 ##
-1. 写PyOne更多的是为了自己的个性化需求，不具有通用性，这个版本基本完全照抄了oneindex的功能
-2. 因为是为了自己的个性化需求，因此PyOne不会经常更新
-3. PyOne适合Python程序猿进行二开
+Wiki地址：[https://abbeyokgo.github.io/](https://abbeyokgo.github.io/)
 
-## 适用onedrive版本 ##
-1. 个人版
-2. onedrive商业版
-3. onedrive教育版（需要学校管理员开启权限）
+QQ交流群：[https://jq.qq.com/?_wv=1027&k=5ypfek0](https://jq.qq.com/?_wv=1027&k=5ypfek0)
 
-## 适用环境 ##
-1. linux环境
-2. Python2.7
-3. **需要安装redis，MongoDB**
+TG交流群：[https://t.me/joinchat/JQOOug6MY11gy_MiXTmqIA](https://t.me/joinchat/JQOOug6MY11gy_MiXTmqIA)
 
-## 安装教程 ##
-请转移到我的博客查看[安装教程](https://abbeyok.com/2018/09/23/pyone2-0/)
+相关博客：
+[《PyOne一键安装脚本适应Centos7、Debian8+、Ubuntu16+》](https://www.abbeyok.com/archives/382)
+
+**有任何问题，先看wiki！wiki找不到解决办法的，再到论坛里提问！**
+
+## 赞助Abbey ##
+
+![](https://i.niupic.com/images/2019/05/31/_380.png)

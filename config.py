@@ -1,31 +1,24 @@
 #-*- coding=utf-8 -*-
+from self_config import *
 import os
-
-#限制调用域名
-allow_site=[u'no-referrer']
-
-#######源码目录
-config_dir='/root/PyOne'
-data_dir=os.path.join(config_dir,'data')
-
-#######分享目录
-share_path="/"
-
-#onedrive api设置
-redirect_uri='https://auth.3pp.me/' #不要修改！
-BaseAuthUrl='https://login.microsoftonline.com'
-client_id=""
-client_secret=""
+from datetime import timedelta
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 
-#下载链接过期时间
-downloadUrl_timeout="300"
+class config:
+    SECRET_KEY = os.path.join(config_dir,'PyOne'+password)
+    CACHE_TYPE='redis'
+    CACHE_REDIS_HOST=REDIS_HOST
+    CACHE_REDIS_PORT=REDIS_PORT
+    CACHE_REDIS_DB=REDIS_DB
+    if REDIS_PASSWORD!='':
+        CACHE_REDIS_PASSWORD=REDIS_PASSWORD
+    SEND_FILE_MAX_AGE_DEFAULT=timedelta(seconds=1)
+    version='4.190731'
 
-#onedrive个人页的域名。国际版为com结尾，世纪互联版为cn结尾，最后面一定要带/
-app_url=u'https://graph.microsoft.com/'
+    @staticmethod
+    def init_app(app):
+        pass
 
-#后台密码设置
-password="PyOne"
 
-#网站名称
-title="PyOne"
+
